@@ -1,0 +1,208 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2d2164;
+    color: #fff;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo img {
+    margin: 17% auto;
+    width: 75%;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 4px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    padding: 0 5px 5px;
+}
+
+ul li a:hover {
+    color: #ffbc62;
+    border-bottom: 3px solid rgba(255, 188, 98, 0.3);
+    transition: 0.25s ease-in;
+}
+
+section#portfolio {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: #aa6915;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.project img {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    opacity: 0.5;
+}
+
+.project img:hover {
+    opacity: 1;
+    transition: 0.25s ease-in;
+}
+.title {
+	font-size:16px;
+	color: #fff;
+	text-align:center;
+	font-weight: 700;
+}
+
+.hover {
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+    text-transform: uppercase;
+
+}
+
+.title:hover {
+    color: #2d2164;
+    background: #fff;
+    border:2px solid #2d2164;
+    transition: 0.25s ease-in;
+    padding: 5% 8%;
+}
+
+footer {
+    background: #251c4d;
+    height: 150px;
+    text-align: center;
+}
+
+.social {
+    padding-top: 20px;
+}
+
+span.fa.fa-facebook-square, .fa-instagram, .fa-twitter-square, .fa-linkedin-square  {
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+span.fa.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-twitter-square:hover,
+.fa-linkedin-square:hover  {
+    opacity: 0.6;
+}
+
+@media screen and (min-width : 480px) {
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo img {
+    margin: 9% auto;
+    width: 45%;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul li {
+    padding-right: 2%;
+    padding-left: 2%;
+    display: inline-block;
+}
+
+}
+
+@media screen and (min-width : 760px) {
+
+div#logo {
+    display: inline-block;
+}
+
+#logo img {
+    margin: 9% auto;
+    width: 70%;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 8%;
+    width: 60%;
+}
+
+.hover {
+	top: 42%;
+}
+
+}
+
+@media screen and (min-width : 1200px) {
+
+#logo img {
+    margin: 17% auto;
+    width: 80%;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+    width: 35%;
+}
+
+section#portfolio {
+    display: inline;
+    margin: 0 auto;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.project {
+    width: 50%;
+    float: left;
+}
+
+.social {
+    padding-top: 30px;
+}
+
+}
